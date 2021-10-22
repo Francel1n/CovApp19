@@ -44,12 +44,12 @@ class _MyHomePageState extends State<MyHomePage> {
               ranges: <GaugeRange>[
                 GaugeRange(
                     startValue: 0,
-                    endValue: 20,
+                    endValue: 15,
                     color: Colors.green,
                     startWidth: 10,
                     endWidth: 10),
                 GaugeRange(
-                    startValue: 20,
+                    startValue: 15,
                     endValue: 35,
                     color: Colors.orange,
                     startWidth: 10,
@@ -102,6 +102,8 @@ class _MyHomePageState extends State<MyHomePage> {
   String _erreur = "";
   Color _clrmessage = Colors.black;
   String _argument = "alors on s'fait un fifa ?";
+  String _messageProba = "";
+  String _textResult = "";
 
   // void nombre() {
   //   setState(() {
@@ -150,6 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
         _message = "Vous ne pouvez pas vous réunir dans ces conditions !";
         _clrmessage = Colors.red;
       }
+      _textResult = "$_result %";
     });
   }
 
@@ -367,12 +370,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     });
                   }),
               Text(
-                'Voici les probabilités que vous attrapiez la covid19 si une personne est positive parmis vous:',
+                '$_messageProba',
                 textAlign: TextAlign.center,
                 textScaleFactor: 1.6,
               ),
               Text(
-                '$_result %',
+                '$_textResult',
                 style: Theme.of(context).textTheme.headline4,
               ),
             ],

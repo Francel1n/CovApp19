@@ -1,4 +1,4 @@
-#Fri Sep 17 11:20:12 CEST 2021
-base.0=/home/francelin/src/ReposGit/covapp19/covapp19/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Fri Oct 22 10:33:25 CEST 2021
+base.0=/home/francelin/src/ReposGit/covapp19/CovApp19/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
