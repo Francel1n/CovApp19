@@ -1,0 +1,4 @@
+io/flutter/plugins/share/BuildConfig.java
+ io.flutter.plugins.share.BuildConfig
+io/flutter/plugins/share/SharePlugin.java
+ io.flutter.plugins.share.SharePlugin
