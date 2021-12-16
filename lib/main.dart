@@ -181,7 +181,9 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           body: Container(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              
+              //alignment: Alignment.center,
               children: <Widget>[
                 Text(
                   "$_erreur",
@@ -389,12 +391,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
+            
           ),
           floatingActionButton: Stack(
             children: [
               Positioned(
                 left: 168,
-                top: 650,
+                top: 700,
                 child: FloatingActionButton(
                   onPressed: () {
                     script();

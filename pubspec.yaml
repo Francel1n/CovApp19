@@ -30,7 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   share: ^2.0.4
   multi_select_flutter: ^4.0.0
-  syncfusion_flutter_gauges: ^19.1.64
+  syncfusion_flutter_gauges: ^19.3.59
 
 dev_dependencies:
   flutter_test:
