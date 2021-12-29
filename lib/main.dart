@@ -127,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
         _erreur = "Attention, tes choix ne sont pas cohérents";
       }
       if ((_personnes / _superficie * _config * 80) < 100) {
-        _value = (_personnes - (_vaccinated * 0.80)) /
+        _value = (_personnes - (_vaccinated * 0.20)) /
             _superficie *
             (_config + 0.60) *
             60;
@@ -170,17 +170,19 @@ class _MyHomePageState extends State<MyHomePage> {
       length: 3,
       child: Scaffold(
           appBar: AppBar(
-            bottom: TabBar(
-              tabs: [
-                Tab(icon: Icon(Icons.directions_car)),
-                Tab(icon: Icon(Icons.directions_car)),
-                Tab(icon: Icon(Icons.directions_car)),
-              ],
-            ),
+            // bottom: TabBar(
+            //   tabs: [
+            //     Tab(icon: Icon(Icons.directions_car)),
+            //     Tab(icon: Icon(Icons.directions_train)),
+            //     Tab(icon: Icon(Icons.location_city)),
+            //   ],
+            // ),
             title: Text(widget.title),
           ),
           body: Container(
-            child: Column(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               
               //alignment: Alignment.center,
@@ -391,6 +393,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
+            ]
+            )
             
           ),
           floatingActionButton: Stack(
