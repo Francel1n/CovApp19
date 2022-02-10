@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    }
+]

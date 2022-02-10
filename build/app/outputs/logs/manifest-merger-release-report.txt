@@ -1,0 +1,177 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/860e101d1ce58f46d25722e4c0057df4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/cdbce61bd1ba1f783dbc337b1529c519/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/ca162931d2de943fdac6bcd9bceedce2/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/3e4103e60c393ce8b1082d2942e89c6b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/11947949b574649c5ea82547a745a6a5/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/cc903a00c04b0137bd592e8de35d1902/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/c15ee3c0a1cbc106c61ab5a88bc1499b/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/256f4169019b5f46f39c2c0ca318e9ab/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/8a4e4baacf62685fb867ffa80e33376b/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/db877d227edc778ee6f5223e30ea6ed8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/0ea777946659124b9eedec25a0d69894/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/6136808dda1d0aa492b0d65721eec469/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/francelin/.gradle/caches/transforms-2/files-2.1/8774642d53e6d49aa90185e3907c9ecc/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/f650430335fa28ed6bb6415d70eba07f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/11d0b057b0e9d6af78e9d7d8fe7c49e0/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:1-41:12
+	package
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:3:4-40:19
+MERGED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:7:5-17:19
+MERGED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:7:5-17:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/francelin/.gradle/caches/transforms-2/files-2.1/8774642d53e6d49aa90185e3907c9ecc/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/francelin/.gradle/caches/transforms-2/files-2.1/8774642d53e6d49aa90185e3907c9ecc/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:4:9-33
+	android:icon
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:5:9-43
+activity#com.example.covapp19.MainActivity
+ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:6:9-34:20
+	android:launchMode
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:8:13-43
+	android:hardwareAccelerated
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:11:13-47
+	android:windowSoftInputMode
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:12:13-55
+	android:configChanges
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:10:13-163
+	android:theme
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:9:13-47
+	android:name
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:7:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:17:13-20:17
+	android:resource
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:19:15-52
+	android:name
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:18:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:26:13-29:17
+	android:resource
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:28:15-61
+	android:name
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:27:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:32:27-74
+meta-data#flutterEmbedding
+ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:37:9-39:33
+	android:value
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:39:13-30
+	android:name
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml:38:13-44
+uses-sdk
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+MERGED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/860e101d1ce58f46d25722e4c0057df4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/860e101d1ce58f46d25722e4c0057df4/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/cdbce61bd1ba1f783dbc337b1529c519/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/cdbce61bd1ba1f783dbc337b1529c519/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/ca162931d2de943fdac6bcd9bceedce2/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/ca162931d2de943fdac6bcd9bceedce2/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/3e4103e60c393ce8b1082d2942e89c6b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/3e4103e60c393ce8b1082d2942e89c6b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/11947949b574649c5ea82547a745a6a5/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/11947949b574649c5ea82547a745a6a5/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/cc903a00c04b0137bd592e8de35d1902/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/cc903a00c04b0137bd592e8de35d1902/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/8af1ab91e92b778dd2db9906bb4de1f7/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/c15ee3c0a1cbc106c61ab5a88bc1499b/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/c15ee3c0a1cbc106c61ab5a88bc1499b/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/256f4169019b5f46f39c2c0ca318e9ab/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/256f4169019b5f46f39c2c0ca318e9ab/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/8a4e4baacf62685fb867ffa80e33376b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/8a4e4baacf62685fb867ffa80e33376b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/db877d227edc778ee6f5223e30ea6ed8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/db877d227edc778ee6f5223e30ea6ed8/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/0ea777946659124b9eedec25a0d69894/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/0ea777946659124b9eedec25a0d69894/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/6136808dda1d0aa492b0d65721eec469/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/6136808dda1d0aa492b0d65721eec469/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/francelin/.gradle/caches/transforms-2/files-2.1/8774642d53e6d49aa90185e3907c9ecc/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/francelin/.gradle/caches/transforms-2/files-2.1/8774642d53e6d49aa90185e3907c9ecc/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/f650430335fa28ed6bb6415d70eba07f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/f650430335fa28ed6bb6415d70eba07f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/11d0b057b0e9d6af78e9d7d8fe7c49e0/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/francelin/.gradle/caches/transforms-2/files-2.1/11d0b057b0e9d6af78e9d7d8fe7c49e0/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/francelin/Documents/reposGit/CovApp19/android/app/src/main/AndroidManifest.xml
+provider#io.flutter.plugins.share.ShareFileProvider
+ADDED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:9:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:68
+	android:resource
+		ADDED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:15:17-65
+	android:name
+		ADDED from [:share] /home/francelin/Documents/reposGit/CovApp19/build/share/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/francelin/.gradle/caches/transforms-2/files-2.1/553e87c2148dc6ccc1842ffbd009694c/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51

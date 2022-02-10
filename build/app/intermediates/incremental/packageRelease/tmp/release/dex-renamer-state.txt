@@ -1,0 +1,4 @@
+#Thu Feb 10 11:42:06 CET 2022
+base.0=/home/francelin/Documents/reposGit/CovApp19/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
