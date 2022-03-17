@@ -399,17 +399,13 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           floatingActionButton: Stack(
             children: [
-              Positioned(
-                left: 168,
-                top: 700,
-                child: FloatingActionButton(
+                FloatingActionButton(
                   onPressed: () {
                     script();
                   },
                   tooltip: 'Increment',
                   child: Icon(Icons.add),
                 ),
-              ),
             ],
           )),
     );
