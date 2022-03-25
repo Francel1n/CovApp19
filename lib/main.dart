@@ -180,232 +180,233 @@ class _MyHomePageState extends State<MyHomePage> {
             title: Text(widget.title),
           ),
           body: Container(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              
-              //alignment: Alignment.center,
-              children: <Widget>[
-                Text(
-                  "$_erreur",
-                  style: TextStyle(
-                    color: Colors.red,
-                  ),
+              child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
+                  //alignment: Alignment.center,
+                  children: <Widget>[
+                    Text(
+                      "$_erreur",
+                      style: TextStyle(
+                        color: Colors.red,
+                      ),
+                    ),
+                    Text(
+                      'Nombre de personnes',
+                      textScaleFactor: 1.5,
+                    ),
+                    DropdownButton(
+                        value: _personnes,
+                        items: [
+                          DropdownMenuItem(
+                            child: Text("0"),
+                            value: 0,
+                          ),
+                          DropdownMenuItem(
+                            child: Text("1"),
+                            value: 1,
+                          ),
+                          DropdownMenuItem(child: Text("2"), value: 2),
+                          DropdownMenuItem(child: Text("3"), value: 3),
+                          DropdownMenuItem(child: Text("4"), value: 4),
+                          DropdownMenuItem(child: Text("5"), value: 5),
+                          DropdownMenuItem(child: Text("6"), value: 6),
+                          DropdownMenuItem(child: Text("7"), value: 7),
+                          DropdownMenuItem(child: Text("8"), value: 8),
+                          DropdownMenuItem(child: Text("9"), value: 9),
+                          DropdownMenuItem(child: Text("10"), value: 10),
+                          DropdownMenuItem(child: Text("11"), value: 11),
+                          DropdownMenuItem(child: Text("12"), value: 12),
+                          DropdownMenuItem(child: Text("13"), value: 13),
+                          DropdownMenuItem(child: Text("14"), value: 14),
+                          DropdownMenuItem(child: Text("15"), value: 15),
+                          DropdownMenuItem(child: Text("16"), value: 16),
+                          DropdownMenuItem(child: Text("17"), value: 17),
+                          DropdownMenuItem(child: Text("18"), value: 18),
+                          DropdownMenuItem(child: Text("19"), value: 19),
+                          DropdownMenuItem(child: Text("20"), value: 20),
+                          DropdownMenuItem(child: Text("21"), value: 21),
+                          DropdownMenuItem(child: Text("22"), value: 22),
+                          DropdownMenuItem(child: Text("23"), value: 23),
+                          DropdownMenuItem(child: Text("24"), value: 24),
+                          DropdownMenuItem(child: Text("25"), value: 25),
+                          DropdownMenuItem(child: Text("26"), value: 26),
+                          DropdownMenuItem(child: Text("27"), value: 27),
+                          DropdownMenuItem(child: Text("28"), value: 28),
+                          DropdownMenuItem(child: Text("29"), value: 29),
+                          DropdownMenuItem(child: Text("30"), value: 30),
+                        ],
+                        onChanged: (value) {
+                          setState(() {
+                            _personnes = value;
+                          });
+                        }),
+                    Text(
+                      'Superficie (en m2)',
+                      textScaleFactor: 1.5,
+                    ),
+                    DropdownButton(
+                        value: _superficie,
+                        items: [
+                          DropdownMenuItem(
+                            child: Text("0"),
+                            value: 0,
+                          ),
+                          DropdownMenuItem(
+                            child: Text("1"),
+                            value: 1,
+                          ),
+                          DropdownMenuItem(child: Text("2"), value: 2),
+                          DropdownMenuItem(child: Text("3"), value: 3),
+                          DropdownMenuItem(child: Text("4"), value: 4),
+                          DropdownMenuItem(child: Text("5"), value: 5),
+                          DropdownMenuItem(child: Text("6"), value: 6),
+                          DropdownMenuItem(child: Text("7"), value: 7),
+                          DropdownMenuItem(child: Text("8"), value: 8),
+                          DropdownMenuItem(child: Text("9"), value: 9),
+                          DropdownMenuItem(child: Text("10"), value: 10),
+                          DropdownMenuItem(child: Text("11"), value: 11),
+                          DropdownMenuItem(child: Text("12"), value: 12),
+                          DropdownMenuItem(child: Text("13"), value: 13),
+                          DropdownMenuItem(child: Text("14"), value: 14),
+                          DropdownMenuItem(child: Text("15"), value: 15),
+                          DropdownMenuItem(child: Text("16"), value: 16),
+                          DropdownMenuItem(child: Text("17"), value: 17),
+                          DropdownMenuItem(child: Text("18"), value: 18),
+                          DropdownMenuItem(child: Text("19"), value: 19),
+                          DropdownMenuItem(child: Text("20"), value: 20),
+                          DropdownMenuItem(child: Text("21"), value: 21),
+                          DropdownMenuItem(child: Text("22"), value: 22),
+                          DropdownMenuItem(child: Text("23"), value: 23),
+                          DropdownMenuItem(child: Text("24"), value: 24),
+                          DropdownMenuItem(child: Text("25"), value: 25),
+                          DropdownMenuItem(child: Text("26"), value: 26),
+                          DropdownMenuItem(child: Text("27"), value: 27),
+                          DropdownMenuItem(child: Text("28"), value: 28),
+                          DropdownMenuItem(child: Text("29"), value: 29),
+                          DropdownMenuItem(child: Text("30"), value: 30),
+                          DropdownMenuItem(child: Text("31"), value: 31),
+                          DropdownMenuItem(child: Text("32"), value: 32),
+                          DropdownMenuItem(child: Text("33"), value: 33),
+                          DropdownMenuItem(child: Text("34"), value: 34),
+                          DropdownMenuItem(child: Text("35"), value: 35),
+                          DropdownMenuItem(child: Text("36"), value: 36),
+                          DropdownMenuItem(child: Text("37"), value: 37),
+                          DropdownMenuItem(child: Text("38"), value: 38),
+                          DropdownMenuItem(child: Text("39"), value: 39),
+                          DropdownMenuItem(child: Text("40"), value: 40),
+                          DropdownMenuItem(child: Text("41"), value: 41),
+                          DropdownMenuItem(child: Text("42"), value: 42),
+                          DropdownMenuItem(child: Text("43"), value: 43),
+                          DropdownMenuItem(child: Text("44"), value: 44),
+                          DropdownMenuItem(child: Text("45"), value: 45),
+                          DropdownMenuItem(child: Text("46"), value: 46),
+                          DropdownMenuItem(child: Text("47"), value: 47),
+                          DropdownMenuItem(child: Text("48"), value: 48),
+                          DropdownMenuItem(child: Text("49"), value: 49),
+                          DropdownMenuItem(child: Text("50"), value: 50),
+                        ],
+                        onChanged: (value) {
+                          setState(() {
+                            _superficie = value;
+                          });
+                        }),
+                    Text(
+                      "Configuration de l'espace",
+                      textScaleFactor: 1.5,
+                    ),
+                    DropdownButton(
+                        value: _config,
+                        items: [
+                          DropdownMenuItem(
+                            child: Text("Exterieur"),
+                            value: 0,
+                          ),
+                          DropdownMenuItem(
+                            child: Text("Interieur avec fenêtres ouvertes"),
+                            value: 2,
+                          ),
+                          DropdownMenuItem(child: Text("Interieur"), value: 3),
+                        ],
+                        onChanged: (value) {
+                          setState(() {
+                            _config = value;
+                          });
+                        }),
+                    Text(
+                      'Nombre de personnes vaccinées',
+                      textScaleFactor: 1.5,
+                    ),
+                    DropdownButton(
+                        value: _vaccinated,
+                        items: [
+                          DropdownMenuItem(
+                            child: Text("0"),
+                            value: 0,
+                          ),
+                          DropdownMenuItem(
+                            child: Text("1"),
+                            value: 1,
+                          ),
+                          DropdownMenuItem(child: Text("2"), value: 2),
+                          DropdownMenuItem(child: Text("3"), value: 3),
+                          DropdownMenuItem(child: Text("4"), value: 4),
+                          DropdownMenuItem(child: Text("5"), value: 5),
+                          DropdownMenuItem(child: Text("6"), value: 6),
+                          DropdownMenuItem(child: Text("7"), value: 7),
+                          DropdownMenuItem(child: Text("8"), value: 8),
+                          DropdownMenuItem(child: Text("9"), value: 9),
+                          DropdownMenuItem(child: Text("10"), value: 10),
+                          DropdownMenuItem(child: Text("11"), value: 11),
+                          DropdownMenuItem(child: Text("12"), value: 12),
+                          DropdownMenuItem(child: Text("13"), value: 13),
+                          DropdownMenuItem(child: Text("14"), value: 14),
+                          DropdownMenuItem(child: Text("15"), value: 15),
+                          DropdownMenuItem(child: Text("16"), value: 16),
+                          DropdownMenuItem(child: Text("17"), value: 17),
+                          DropdownMenuItem(child: Text("18"), value: 18),
+                          DropdownMenuItem(child: Text("19"), value: 19),
+                          DropdownMenuItem(child: Text("20"), value: 20),
+                          DropdownMenuItem(child: Text("21"), value: 21),
+                          DropdownMenuItem(child: Text("22"), value: 22),
+                          DropdownMenuItem(child: Text("23"), value: 23),
+                          DropdownMenuItem(child: Text("24"), value: 24),
+                          DropdownMenuItem(child: Text("25"), value: 25),
+                          DropdownMenuItem(child: Text("26"), value: 26),
+                          DropdownMenuItem(child: Text("27"), value: 27),
+                          DropdownMenuItem(child: Text("28"), value: 28),
+                          DropdownMenuItem(child: Text("29"), value: 29),
+                          DropdownMenuItem(child: Text("30"), value: 30),
+                        ],
+                        onChanged: (value) {
+                          setState(() {
+                            _vaccinated = value;
+                          });
+                        }),
+                    Text(
+                      '$_messageProba',
+                      textAlign: TextAlign.center,
+                      textScaleFactor: 1.6,
+                    ),
+                    Text(
+                      '$_textResult',
+                      style: Theme.of(context).textTheme.headline4,
+                    ),
+                  ],
                 ),
-                Text(
-                  'Nombre de personnes',
-                  textScaleFactor: 1.5,
-                ),
-                DropdownButton(
-                    value: _personnes,
-                    items: [
-                      DropdownMenuItem(
-                        child: Text("0"),
-                        value: 0,
-                      ),
-                      DropdownMenuItem(
-                        child: Text("1"),
-                        value: 1,
-                      ),
-                      DropdownMenuItem(child: Text("2"), value: 2),
-                      DropdownMenuItem(child: Text("3"), value: 3),
-                      DropdownMenuItem(child: Text("4"), value: 4),
-                      DropdownMenuItem(child: Text("5"), value: 5),
-                      DropdownMenuItem(child: Text("6"), value: 6),
-                      DropdownMenuItem(child: Text("7"), value: 7),
-                      DropdownMenuItem(child: Text("8"), value: 8),
-                      DropdownMenuItem(child: Text("9"), value: 9),
-                      DropdownMenuItem(child: Text("10"), value: 10),
-                      DropdownMenuItem(child: Text("11"), value: 11),
-                      DropdownMenuItem(child: Text("12"), value: 12),
-                      DropdownMenuItem(child: Text("13"), value: 13),
-                      DropdownMenuItem(child: Text("14"), value: 14),
-                      DropdownMenuItem(child: Text("15"), value: 15),
-                      DropdownMenuItem(child: Text("16"), value: 16),
-                      DropdownMenuItem(child: Text("17"), value: 17),
-                      DropdownMenuItem(child: Text("18"), value: 18),
-                      DropdownMenuItem(child: Text("19"), value: 19),
-                      DropdownMenuItem(child: Text("20"), value: 20),
-                      DropdownMenuItem(child: Text("21"), value: 21),
-                      DropdownMenuItem(child: Text("22"), value: 22),
-                      DropdownMenuItem(child: Text("23"), value: 23),
-                      DropdownMenuItem(child: Text("24"), value: 24),
-                      DropdownMenuItem(child: Text("25"), value: 25),
-                      DropdownMenuItem(child: Text("26"), value: 26),
-                      DropdownMenuItem(child: Text("27"), value: 27),
-                      DropdownMenuItem(child: Text("28"), value: 28),
-                      DropdownMenuItem(child: Text("29"), value: 29),
-                      DropdownMenuItem(child: Text("30"), value: 30),
-                    ],
-                    onChanged: (value) {
-                      setState(() {
-                        _personnes = value;
-                      });
-                    }),
-                Text('Superficie (en m2)'),
-                DropdownButton(
-                    value: _superficie,
-                    items: [
-                      DropdownMenuItem(
-                        child: Text("0"),
-                        value: 0,
-                      ),
-                      DropdownMenuItem(
-                        child: Text("1"),
-                        value: 1,
-                      ),
-                      DropdownMenuItem(child: Text("2"), value: 2),
-                      DropdownMenuItem(child: Text("3"), value: 3),
-                      DropdownMenuItem(child: Text("4"), value: 4),
-                      DropdownMenuItem(child: Text("5"), value: 5),
-                      DropdownMenuItem(child: Text("6"), value: 6),
-                      DropdownMenuItem(child: Text("7"), value: 7),
-                      DropdownMenuItem(child: Text("8"), value: 8),
-                      DropdownMenuItem(child: Text("9"), value: 9),
-                      DropdownMenuItem(child: Text("10"), value: 10),
-                      DropdownMenuItem(child: Text("11"), value: 11),
-                      DropdownMenuItem(child: Text("12"), value: 12),
-                      DropdownMenuItem(child: Text("13"), value: 13),
-                      DropdownMenuItem(child: Text("14"), value: 14),
-                      DropdownMenuItem(child: Text("15"), value: 15),
-                      DropdownMenuItem(child: Text("16"), value: 16),
-                      DropdownMenuItem(child: Text("17"), value: 17),
-                      DropdownMenuItem(child: Text("18"), value: 18),
-                      DropdownMenuItem(child: Text("19"), value: 19),
-                      DropdownMenuItem(child: Text("20"), value: 20),
-                      DropdownMenuItem(child: Text("21"), value: 21),
-                      DropdownMenuItem(child: Text("22"), value: 22),
-                      DropdownMenuItem(child: Text("23"), value: 23),
-                      DropdownMenuItem(child: Text("24"), value: 24),
-                      DropdownMenuItem(child: Text("25"), value: 25),
-                      DropdownMenuItem(child: Text("26"), value: 26),
-                      DropdownMenuItem(child: Text("27"), value: 27),
-                      DropdownMenuItem(child: Text("28"), value: 28),
-                      DropdownMenuItem(child: Text("29"), value: 29),
-                      DropdownMenuItem(child: Text("30"), value: 30),
-                      DropdownMenuItem(child: Text("31"), value: 31),
-                      DropdownMenuItem(child: Text("32"), value: 32),
-                      DropdownMenuItem(child: Text("33"), value: 33),
-                      DropdownMenuItem(child: Text("34"), value: 34),
-                      DropdownMenuItem(child: Text("35"), value: 35),
-                      DropdownMenuItem(child: Text("36"), value: 36),
-                      DropdownMenuItem(child: Text("37"), value: 37),
-                      DropdownMenuItem(child: Text("38"), value: 38),
-                      DropdownMenuItem(child: Text("39"), value: 39),
-                      DropdownMenuItem(child: Text("40"), value: 40),
-                      DropdownMenuItem(child: Text("41"), value: 41),
-                      DropdownMenuItem(child: Text("42"), value: 42),
-                      DropdownMenuItem(child: Text("43"), value: 43),
-                      DropdownMenuItem(child: Text("44"), value: 44),
-                      DropdownMenuItem(child: Text("45"), value: 45),
-                      DropdownMenuItem(child: Text("46"), value: 46),
-                      DropdownMenuItem(child: Text("47"), value: 47),
-                      DropdownMenuItem(child: Text("48"), value: 48),
-                      DropdownMenuItem(child: Text("49"), value: 49),
-                      DropdownMenuItem(child: Text("50"), value: 50),
-                    ],
-                    onChanged: (value) {
-                      setState(() {
-                        _superficie = value;
-                      });
-                    }),
-                Text(
-                  "Configuration de l'espace",
-                  textScaleFactor: 1.5,
-                ),
-                DropdownButton(
-                    value: _config,
-                    items: [
-                      DropdownMenuItem(
-                        child: Text("Exterieur"),
-                        value: 0,
-                      ),
-                      DropdownMenuItem(
-                        child: Text("Interieur avec fenêtres ouvertes"),
-                        value: 2,
-                      ),
-                      DropdownMenuItem(child: Text("Interieur"), value: 3),
-                    ],
-                    onChanged: (value) {
-                      setState(() {
-                        _config = value;
-                      });
-                    }),
-                Text(
-                  'Nombre de personnes vaccinées',
-                  textScaleFactor: 1.5,
-                ),
-                DropdownButton(
-                    value: _vaccinated,
-                    items: [
-                      DropdownMenuItem(
-                        child: Text("0"),
-                        value: 0,
-                      ),
-                      DropdownMenuItem(
-                        child: Text("1"),
-                        value: 1,
-                      ),
-                      DropdownMenuItem(child: Text("2"), value: 2),
-                      DropdownMenuItem(child: Text("3"), value: 3),
-                      DropdownMenuItem(child: Text("4"), value: 4),
-                      DropdownMenuItem(child: Text("5"), value: 5),
-                      DropdownMenuItem(child: Text("6"), value: 6),
-                      DropdownMenuItem(child: Text("7"), value: 7),
-                      DropdownMenuItem(child: Text("8"), value: 8),
-                      DropdownMenuItem(child: Text("9"), value: 9),
-                      DropdownMenuItem(child: Text("10"), value: 10),
-                      DropdownMenuItem(child: Text("11"), value: 11),
-                      DropdownMenuItem(child: Text("12"), value: 12),
-                      DropdownMenuItem(child: Text("13"), value: 13),
-                      DropdownMenuItem(child: Text("14"), value: 14),
-                      DropdownMenuItem(child: Text("15"), value: 15),
-                      DropdownMenuItem(child: Text("16"), value: 16),
-                      DropdownMenuItem(child: Text("17"), value: 17),
-                      DropdownMenuItem(child: Text("18"), value: 18),
-                      DropdownMenuItem(child: Text("19"), value: 19),
-                      DropdownMenuItem(child: Text("20"), value: 20),
-                      DropdownMenuItem(child: Text("21"), value: 21),
-                      DropdownMenuItem(child: Text("22"), value: 22),
-                      DropdownMenuItem(child: Text("23"), value: 23),
-                      DropdownMenuItem(child: Text("24"), value: 24),
-                      DropdownMenuItem(child: Text("25"), value: 25),
-                      DropdownMenuItem(child: Text("26"), value: 26),
-                      DropdownMenuItem(child: Text("27"), value: 27),
-                      DropdownMenuItem(child: Text("28"), value: 28),
-                      DropdownMenuItem(child: Text("29"), value: 29),
-                      DropdownMenuItem(child: Text("30"), value: 30),
-                    ],
-                    onChanged: (value) {
-                      setState(() {
-                        _vaccinated = value;
-                      });
-                    }),
-                Text(
-                  '$_messageProba',
-                  textAlign: TextAlign.center,
-                  textScaleFactor: 1.6,
-                ),
-                Text(
-                  '$_textResult',
-                  style: Theme.of(context).textTheme.headline4,
-                ),
-              ],
-            ),
-            ]
-            )
-            
-          ),
+              ])),
           floatingActionButton: Stack(
             children: [
-                FloatingActionButton(
-                  onPressed: () {
-                    script();
-                  },
-                  tooltip: 'Increment',
-                  child: Icon(Icons.add),
-                ),
+              FloatingActionButton(
+                onPressed: () {
+                  script();
+                },
+                tooltip: 'Increment',
+                child: Icon(Icons.add),
+              ),
             ],
           )),
     );
